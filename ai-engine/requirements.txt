@@ -1,0 +1,61 @@
+# Safe-Sight AI Engine – pip requirements
+# Install with:  pip install -r requirements.txt
+#
+# NOTE: TensorFlow 2.13 includes the compat.v1 session API needed by DeepSORT.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# TensorFlow (includes Keras 2.13) — Model 1 (YOLOv3)
+tensorflow==2.13.0
+
+# Core scientific stack
+numpy==1.24.3
+scipy==1.11.1
+
+# HDF5 model loading
+h5py==3.9.0
+
+# Computer Vision
+opencv-python==4.8.0.74
+
+# Image processing
+Pillow==9.5.0
+
+# Progress bar
+tqdm==4.65.0
+
+# Configuration
+PyYAML==6.0.1
+
+# Protobuf (pin for TF 2.13 compatibility)
+protobuf==4.23.4
+
+# ── Model 2: YOLOv8 (Ultralytics) ──────────────────────────────────────────
+# Required for full-PPE detection (vest, gloves, boots, goggles, etc.)
+# Your friend's best.onnx is loaded via this package.
+ultralytics>=8.0.0
+onnxruntime>=1.15.0
+onnx>=1.14.0
+
+# PyTorch (ultralytics dependency — CPU version; use +cu118 wheel for CUDA GPU)
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# ── Face Recognition (ViT-based with Cloudinary) ────────────────────────────
+# Required for worker face identification from Cloudinary photos
+torch>=2.0.0
+torchvision>=0.15.0
+timm>=0.9.0
+requests>=2.31.0
+
+# ── Web Server ──────────────────────────────────────────────────────────────
+# Flask for camera stream servers
+Flask>=2.3.0
+Flask-CORS>=4.0.0
+
+# ── Audio Alerts ────────────────────────────────────────────────────────────
+# Google Text-to-Speech for violation audio alerts
+gTTS>=2.3.0
+
+# ── Environment Variables ───────────────────────────────────────────────────
+# Load camera indices from .env file
+python-dotenv>=1.0.0

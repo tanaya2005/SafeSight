@@ -1,0 +1,63 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build outputs
+client/dist/
+client/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.Python
+
+# AI Model weights (large files – download separately)
+*.pt
+*.pth
+*.weights
+*.onnx
+*.pb
+*.h5
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.pb
+*.h5
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# MongoDB
+*.dump
+
+# Uploads / photos (add to cloud storage instead)
+server/uploads/
