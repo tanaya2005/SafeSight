@@ -18,10 +18,10 @@ Industrial worksites frequently suffer accidents due to failure in PPE complianc
 
 | Member | Role | Responsibilities |
 |--------|------|-----------------|
-| Tanaya | **Frontend Developer** | Build dashboard UI and camera grid interface |
+| Tanaya | **Product & Pitch Lead** | Prepare presentation, train models, collect PPE datasets |
 | Varun | **Backend Developer** | Build API, connect MongoDB, manage authentication |
 | Atharva | **AI Engineer** | Integrate PPE detection and run real-time monitoring |
-| Atharva | **Product & Pitch Lead** | Prepare presentation, train models, collect PPE datasets |
+| Archit |**Frontend Developer** | Build dashboard UI and camera grid interface  |
 
 ---
 
