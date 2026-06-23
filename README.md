@@ -30,6 +30,12 @@ Industrial worksites frequently suffer accidents due to failure in PPE complianc
 ### Frontend
 - ⚛️ **React** – UI framework
 - 🎨 **Tailwind CSS** – Utility-first styling
+- 🌐 **React Router** – Client-side routing
+- 📊 **Recharts** – Dashboard charts and visualization
+- 🧭 **Lucide React** – Icon set
+- 🔔 **React Hot Toast** – Toast notifications
+- 🔍 **react-qr-reader** / **html5-qrcode** – QR scanner support
+- 🎮 **three.js** – 3D graphics and scene rendering
 
 ### Backend
 - 🟢 **Node.js** – Runtime
