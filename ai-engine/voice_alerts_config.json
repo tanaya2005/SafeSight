@@ -1,0 +1,36 @@
+{
+  "zone_alerts": {
+    "High Danger Zone": {
+      "en": "Warning! Worker entered High Danger Zone. Immediate evacuation required.",
+      "hi": "चेतावनी! कर्मचारी उच्च खतरे वाले क्षेत्र में प्रवेश कर गया है। तुरंत निकासी आवश्यक है।",
+      "mr": "चेतावणी! कामगार उच्च धोक्याच्या क्षेत्रात प्रवेश केला आहे। तात्काळ बाहेर पडणे आवश्यक आहे।"
+    },
+    "Low Danger Zone": {
+      "en": "Alert! Worker detected in Low Danger Zone. Please evacuate immediately.",
+      "hi": "सतर्कता! कम खतरे वाले क्षेत्र में कर्मचारी का पता चला। कृपया सावधान रहें।",
+      "mr": "सावधान! कमी धोक्याच्या क्षेत्रात कामगार आढळला. कृपया सावध रहा।"
+    },
+    "Restricted Zone Entry": {
+      "en": "Warning! Unauthorized entry into restricted zone detected.",
+      "hi": "चेतावनी! प्रतिबंधित क्षेत्र में अनधिकृत प्रवेश का पता चला।",
+      "mr": "चेतावणी! प्रतिबंधित क्षेत्रात अनधिकृत प्रवेश आढळला."
+    }
+  },
+  "ppe_alerts": {
+    "No Helmet": {
+      "en": "Safety violation! Worker without helmet detected.",
+      "hi": "सुरक्षा उल्लंघन! हेलमेट के बिना कर्मचारी का पता चला।",
+      "mr": "सुरक्षा उल्लंघन! हेल्मेट शिवाय कामगार आढळला."
+    },
+    "No Safety Vest": {
+      "en": "Safety violation! Worker without safety vest detected.",
+      "hi": "सुरक्षा उल्लंघन! सुरक्षा जैकेट के बिना कर्मचारी का पता चला।",
+      "mr": "सुरक्षा उल्लंघन! सुरक्षा जॅकेट शिवाय कामगार आढळला."
+    }
+  },
+  "languages": {
+    "en": "English",
+    "hi": "Hindi",
+    "mr": "Marathi"
+  }
+}
